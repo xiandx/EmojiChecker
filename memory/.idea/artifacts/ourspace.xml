@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ourspace">
+    <output-path>$PROJECT_DIR$/out/artifacts/ourspace</output-path>
+    <root id="archive" name="ourspace.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="memory" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="memory/web/Web" />
+    </root>
+  </artifact>
+</component>
