@@ -1,0 +1,55 @@
+/* 全局样式表 */
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* 添加最小宽度 避免页面因缩小而布局错乱*/
+    min-width: 1366px;
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.el-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15)!important;
+}
+
+.el-table {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.hhh {
+    margin-top: 15px;
+}
+
+
+/* 设置父级分类选项菜单的高度，不然如果一级数据较多，默认最大整个屏幕的高度 */
+
+.el-cascader-menu {
+    height: 300px;
+    width: 100%;
+}
+
+
+/* 进度条样式 */
+
+.el-step__title {
+    font-size: 13px;
+}
+
+
+/* 富文本编辑器的内容高度重置 */
+
+.ql-editor {
+    min-height: 300px
+}
+
+.el-switch__label * {
+    font-size: 20px!important;
+}
